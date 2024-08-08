@@ -7,7 +7,7 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 # SQL Server database connection properties
-sqlserver_url = "jdbc:sqlserver://your_sqlserver_host:1433;databaseName=your_database_name"
+sqlserver_url = "jdbc:sqlserver://localhost:1433;databaseName=your_database_name"
 table_name = "your_table_name"
 user = "your_username"
 password = "your_password"
